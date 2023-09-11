@@ -171,8 +171,296 @@ do
                 break
             done
         fi
-    elif [[ "$counter" -ge 400 ]]; then
-        echo "over 400!!!"
+    elif [[ "$counter" -ge 400 ]] && [[ "$counter" -lt 500 ]];then
+
+        if [ $found_num -eq 0 ]; then 
+            #echo "no found"
+            #echo "sub num" ${sub_i:0:10}
+            found_num_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*" | wc -l `
+            found_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*"`
+            if [ $found_num_second -eq 0 ]; then
+                echo "second also no found"
+            fi
+            for j in $found_second
+            do
+                echo "enter second found!!"  
+                cp $i basic_ai_"$rest"_part5/lidar_point_cloud_0/$sub_i.pcd
+                cp $j basic_ai_"$rest"_part5/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part5/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $j
+                break
+            done
+        elif [ $found_num -ge 1 ]; then
+            for k in $found
+            do
+                cp $i basic_ai_"$rest"_part5/lidar_point_cloud_0/$sub_i.pcd
+                cp $k basic_ai_"$rest"_part5/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part5/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $k
+                echo "\n"
+                break
+            done
+        fi
+    elif [[ "$counter" -ge 500 ]] && [[ "$counter" -lt 600 ]];then
+
+        if [ $found_num -eq 0 ]; then 
+            #echo "no found"
+            #echo "sub num" ${sub_i:0:10}
+            found_num_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*" | wc -l `
+            found_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*"`
+            if [ $found_num_second -eq 0 ]; then
+                echo "second also no found"
+            fi
+            for j in $found_second
+            do
+                echo "enter second found!!"  
+                cp $i basic_ai_"$rest"_part6/lidar_point_cloud_0/$sub_i.pcd
+                cp $j basic_ai_"$rest"_part6/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part6/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $j
+                break
+            done
+        elif [ $found_num -ge 1 ]; then
+            for k in $found
+            do
+                cp $i basic_ai_"$rest"_part6/lidar_point_cloud_0/$sub_i.pcd
+                cp $k basic_ai_"$rest"_part6/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part6/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $k
+                echo "\n"
+                break
+            done
+        fi
+    elif [[ "$counter" -ge 600 ]] && [[ "$counter" -lt 700 ]];then
+
+        if [ $found_num -eq 0 ]; then 
+            #echo "no found"
+            #echo "sub num" ${sub_i:0:10}
+            found_num_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*" | wc -l `
+            found_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*"`
+            if [ $found_num_second -eq 0 ]; then
+                echo "second also no found"
+            fi
+            for j in $found_second
+            do
+                echo "enter second found!!"  
+                cp $i basic_ai_"$rest"_part7/lidar_point_cloud_0/$sub_i.pcd
+                cp $j basic_ai_"$rest"_part7/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part7/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $j
+                break
+            done
+        elif [ $found_num -ge 1 ]; then
+            for k in $found
+            do
+                cp $i basic_ai_"$rest"_part7/lidar_point_cloud_0/$sub_i.pcd
+                cp $k basic_ai_"$rest"_part7/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part7/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $k
+                echo "\n"
+                break
+            done
+        fi
+    elif [[ "$counter" -ge 700 ]] && [[ "$counter" -lt 800 ]];then
+
+        if [ $found_num -eq 0 ]; then 
+            #echo "no found"
+            #echo "sub num" ${sub_i:0:10}
+            found_num_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*" | wc -l `
+            found_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*"`
+            if [ $found_num_second -eq 0 ]; then
+                echo "second also no found"
+            fi
+            for j in $found_second
+            do
+                echo "enter second found!!"  
+                cp $i basic_ai_"$rest"_part8/lidar_point_cloud_0/$sub_i.pcd
+                cp $j basic_ai_"$rest"_part8/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part8/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $j
+                break
+            done
+        elif [ $found_num -ge 1 ]; then
+            for k in $found
+            do
+                cp $i basic_ai_"$rest"_part8/lidar_point_cloud_0/$sub_i.pcd
+                cp $k basic_ai_"$rest"_part8/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part8/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $k
+                echo "\n"
+                break
+            done
+        fi
+    elif [[ "$counter" -ge 800 ]] && [[ "$counter" -lt 900 ]];then
+
+        if [ $found_num -eq 0 ]; then 
+            #echo "no found"
+            #echo "sub num" ${sub_i:0:10}
+            found_num_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*" | wc -l `
+            found_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*"`
+            if [ $found_num_second -eq 0 ]; then
+                echo "second also no found"
+            fi
+            for j in $found_second
+            do
+                echo "enter second found!!"  
+                cp $i basic_ai_"$rest"_part9/lidar_point_cloud_0/$sub_i.pcd
+                cp $j basic_ai_"$rest"_part9/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part9/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $j
+                break
+            done
+        elif [ $found_num -ge 1 ]; then
+            for k in $found
+            do
+                cp $i basic_ai_"$rest"_part9/lidar_point_cloud_0/$sub_i.pcd
+                cp $k basic_ai_"$rest"_part9/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part9/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $k
+                echo "\n"
+                break
+            done
+        fi
+    elif [[ "$counter" -ge 900 ]] && [[ "$counter" -lt 1000 ]];then
+
+        if [ $found_num -eq 0 ]; then 
+            #echo "no found"
+            #echo "sub num" ${sub_i:0:10}
+            found_num_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*" | wc -l `
+            found_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*"`
+            if [ $found_num_second -eq 0 ]; then
+                echo "second also no found"
+            fi
+            for j in $found_second
+            do
+                echo "enter second found!!"  
+                cp $i basic_ai_"$rest"_part10/lidar_point_cloud_0/$sub_i.pcd
+                cp $j basic_ai_"$rest"_part10/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part10/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $j
+                break
+            done
+        elif [ $found_num -ge 1 ]; then
+            for k in $found
+            do
+                cp $i basic_ai_"$rest"_part10/lidar_point_cloud_0/$sub_i.pcd
+                cp $k basic_ai_"$rest"_part10/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part10/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $k
+                echo "\n"
+                break
+            done
+        fi
+    elif [[ "$counter" -ge 1000 ]] && [[ "$counter" -lt 1100 ]];then
+
+        if [ $found_num -eq 0 ]; then 
+            #echo "no found"
+            #echo "sub num" ${sub_i:0:10}
+            found_num_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*" | wc -l `
+            found_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*"`
+            if [ $found_num_second -eq 0 ]; then
+                echo "second also no found"
+            fi
+            for j in $found_second
+            do
+                echo "enter second found!!"  
+                cp $i basic_ai_"$rest"_part11/lidar_point_cloud_0/$sub_i.pcd
+                cp $j basic_ai_"$rest"_part11/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part11/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $j
+                break
+            done
+        elif [ $found_num -ge 1 ]; then
+            for k in $found
+            do
+                cp $i basic_ai_"$rest"_part11/lidar_point_cloud_0/$sub_i.pcd
+                cp $k basic_ai_"$rest"_part11/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part11/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $k
+                echo "\n"
+                break
+            done
+        fi
+    elif [[ "$counter" -ge 1100 ]] && [[ "$counter" -lt 1200 ]];then
+
+        if [ $found_num -eq 0 ]; then 
+            #echo "no found"
+            #echo "sub num" ${sub_i:0:10}
+            found_num_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*" | wc -l `
+            found_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*"`
+            if [ $found_num_second -eq 0 ]; then
+                echo "second also no found"
+            fi
+            for j in $found_second
+            do
+                echo "enter second found!!"  
+                cp $i basic_ai_"$rest"_part12/lidar_point_cloud_0/$sub_i.pcd
+                cp $j basic_ai_"$rest"_part12/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part12/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $j
+                break
+            done
+        elif [ $found_num -ge 1 ]; then
+            for k in $found
+            do
+                cp $i basic_ai_"$rest"_part12/lidar_point_cloud_0/$sub_i.pcd
+                cp $k basic_ai_"$rest"_part12/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part12/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $k
+                echo "\n"
+                break
+            done
+        fi
+    elif [[ "$counter" -ge 1200 ]] && [[ "$counter" -lt 1300 ]];then
+
+        if [ $found_num -eq 0 ]; then 
+            #echo "no found"
+            #echo "sub num" ${sub_i:0:10}
+            found_num_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*" | wc -l `
+            found_second=`find "image/" -maxdepth 1 -type f -name "${sub_i:0:10}*"`
+            if [ $found_num_second -eq 0 ]; then
+                echo "second also no found"
+            fi
+            for j in $found_second
+            do
+                echo "enter second found!!"  
+                cp $i basic_ai_"$rest"_part13/lidar_point_cloud_0/$sub_i.pcd
+                cp $j basic_ai_"$rest"_part13/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part13/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $j
+                break
+            done
+        elif [ $found_num -ge 1 ]; then
+            for k in $found
+            do
+                cp $i basic_ai_"$rest"_part13/lidar_point_cloud_0/$sub_i.pcd
+                cp $k basic_ai_"$rest"_part13/camera_image_0/$sub_i.png
+                touch basic_ai_"$rest"_part13/camera_config/$sub_i.json
+                counter=$((counter+1))
+                echo $k
+                echo "\n"
+                break
+            done
+        fi
+    elif [[ "$counter" -ge 1300 ]]; then
+        echo "over 1300!!!"
         exit
     fi
     ##echo "$found_num"
