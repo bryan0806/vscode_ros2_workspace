@@ -57,7 +57,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part1/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part1/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part1/camera_config/$sub_i.json
+                cp 000000.json basic_ai_"$rest"_part1/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -67,7 +67,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part1/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part1/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part1/camera_config/$sub_i.json
+                cp 000000.json basic_ai_"$rest"_part1/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -90,7 +90,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part2/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part2/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part2/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part2/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -100,7 +100,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part2/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part2/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part2/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part2/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -122,7 +122,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part3/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part3/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part3/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part3/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -132,7 +132,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part3/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part3/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part3/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part3/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -154,7 +154,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part4/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part4/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part4/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part4/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -164,7 +164,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part4/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part4/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part4/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part4/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -186,7 +186,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part5/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part5/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part5/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part5/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -196,7 +196,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part5/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part5/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part5/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part5/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -218,7 +218,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part6/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part6/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part6/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part6/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -228,7 +228,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part6/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part6/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part6/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part6/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -250,7 +250,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part7/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part7/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part7/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part7/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -260,7 +260,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part7/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part7/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part7/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part7/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -282,7 +282,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part8/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part8/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part8/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part8/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -292,7 +292,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part8/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part8/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part8/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part8/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -314,7 +314,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part9/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part9/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part9/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part9/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -324,7 +324,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part9/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part9/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part9/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part9/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -346,7 +346,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part10/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part10/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part10/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part10/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -356,7 +356,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part10/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part10/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part10/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part10/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -378,7 +378,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part11/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part11/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part11/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part11/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -388,7 +388,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part11/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part11/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part11/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part11/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -410,7 +410,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part12/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part12/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part12/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part12/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -420,7 +420,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part12/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part12/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part12/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part12/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -442,7 +442,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part13/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part13/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part13/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part13/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -452,7 +452,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part13/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part13/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part13/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part13/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -474,7 +474,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part14/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part14/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part14/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part14/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -484,7 +484,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part14/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part14/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part14/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part14/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -506,7 +506,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part15/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part15/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part15/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part15/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -516,7 +516,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part15/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part15/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part15/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part15/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -538,7 +538,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part16/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part16/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part16/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part16/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -548,7 +548,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part16/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part16/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part16/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part16/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -570,7 +570,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part17/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part17/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part17/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part17/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -580,7 +580,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part17/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part17/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part17/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part17/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -602,7 +602,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part18/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part18/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part18/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part18/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -612,7 +612,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part18/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part18/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part18/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part18/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -634,7 +634,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part19/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part19/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part19/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part19/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -644,7 +644,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part19/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part19/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part19/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part19/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -666,7 +666,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part20/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part20/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part20/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part20/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -676,7 +676,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part20/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part20/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part20/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part20/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -698,7 +698,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part21/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part21/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part21/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part21/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -708,7 +708,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part21/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part21/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part21/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part21/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -730,7 +730,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part22/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part22/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part22/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part22/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -740,7 +740,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part22/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part22/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part22/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part22/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -762,7 +762,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part23/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part23/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part23/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part23/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -772,7 +772,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part23/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part23/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part23/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part23/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -794,7 +794,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part24/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part24/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part24/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part24/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -804,7 +804,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part24/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part24/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part24/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part24/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -826,7 +826,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part25/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part25/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part25/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part25/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -836,7 +836,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part25/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part25/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part25/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part25/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -858,7 +858,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part26/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part26/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part26/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part26/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -868,7 +868,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part26/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part26/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part26/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part26/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -890,7 +890,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part27/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part27/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part27/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part27/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -900,7 +900,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part27/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part27/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part27/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part27/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -922,7 +922,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part28/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part28/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part28/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part28/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -932,7 +932,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part28/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part28/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part28/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part28/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -954,7 +954,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part29/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part29/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part29/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part29/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -964,7 +964,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part29/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part29/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part29/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part29/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -986,7 +986,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part30/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part30/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part30/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part30/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -996,7 +996,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part30/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part30/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part30/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part30/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1018,7 +1018,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part31/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part31/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part31/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part31/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1028,7 +1028,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part31/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part31/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part31/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part31/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1050,7 +1050,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part32/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part32/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part32/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part32/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1060,7 +1060,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part32/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part32/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part32/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part32/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1082,7 +1082,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part33/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part33/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part33/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part33/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1092,7 +1092,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part33/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part33/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part33/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part33/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1114,7 +1114,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part34/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part34/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part34/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part34/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1124,7 +1124,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part34/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part34/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part34/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part34/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1146,7 +1146,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part35/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part35/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part35/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part35/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1156,7 +1156,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part35/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part35/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part35/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part35/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1178,7 +1178,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part36/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part36/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part36/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part36/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1188,7 +1188,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part36/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part36/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part36/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part36/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1210,7 +1210,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part37/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part37/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part37/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part37/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1220,7 +1220,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part37/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part37/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part37/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part37/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1242,7 +1242,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part38/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part38/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part38/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part38/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1252,7 +1252,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part38/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part38/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part38/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part38/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1274,7 +1274,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part39/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part39/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part39/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part39/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1284,7 +1284,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part39/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part39/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part39/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part39/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1306,7 +1306,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part40/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part40/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part40/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part40/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1316,7 +1316,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part40/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part40/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part40/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part40/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1338,7 +1338,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part41/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part41/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part41/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part41/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1348,7 +1348,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part41/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part41/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part41/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part41/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1370,7 +1370,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part42/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part42/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part42/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part42/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1380,7 +1380,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part42/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part42/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part42/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part42/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1402,7 +1402,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part43/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part43/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part43/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part43/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1412,7 +1412,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part43/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part43/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part43/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part43/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1434,7 +1434,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part44/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part44/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part44/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part44/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1444,7 +1444,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part44/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part44/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part44/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part44/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1466,7 +1466,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part45/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part45/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part45/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part45/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1476,7 +1476,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part45/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part45/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part45/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part45/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1498,7 +1498,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part46/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part46/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part46/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part46/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1508,7 +1508,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part46/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part46/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part46/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part46/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1530,7 +1530,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part47/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part47/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part47/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part47/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1540,7 +1540,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part47/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part47/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part47/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part47/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1562,7 +1562,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part48/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part48/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part48/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part48/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1572,7 +1572,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part48/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part48/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part48/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part48/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
@@ -1594,7 +1594,7 @@ do
                 echo "enter second found!!"  
                 cp $i basic_ai_"$rest"_part49/lidar_point_cloud_0/$sub_i.pcd
                 cp $j basic_ai_"$rest"_part49/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part49/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part49/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $j
                 break
@@ -1604,7 +1604,7 @@ do
             do
                 cp $i basic_ai_"$rest"_part49/lidar_point_cloud_0/$sub_i.pcd
                 cp $k basic_ai_"$rest"_part49/camera_image_0/$sub_i.png
-                touch basic_ai_"$rest"_part49/camera_config/$sub_i.json
+                cp cp 000000.json basic_ai_"$rest"_part49/camera_config/$sub_i.json
                 counter=$((counter+1))
                 echo $k
                 echo "\n"
